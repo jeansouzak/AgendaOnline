@@ -1,0 +1,35 @@
+body {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.theme-dropdown .dropdown-menu {
+    position: static;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+    margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+    width: auto;
+}
+
+.marketing-msg {
+  height: 350px;
+    padding-top: 0;
+}
+
+.align-center {
+    margin-left: 15%;
+}
+
+.align-right {
+    float: right;
+}
+
+.create-form {
+    display: none;
+}

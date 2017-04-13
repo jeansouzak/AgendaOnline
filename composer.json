@@ -1,0 +1,26 @@
+{
+    "name": "jeancsouzak/agendaonline",
+    "description": "Aplicação de AgendaOnline.",
+    "authors": [
+        {
+            "name": "Jean Souza",
+            "email": "jeancsouzak@gmail.com"
+        }
+    ],
+    "require": {
+        "league/route": "^3.0",
+        "zendframework/zend-diactoros": "^1.4",
+        "twig/twig": "~1.0",
+        "league/container": "^2.4",
+        "nesbot/carbon": "^1.22",
+        "myclabs/php-enum": "^1.5",
+        "vlucas/phpdotenv": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Domain\\": "src/",
+            "Application\\" : "application/",
+            "Infrastructure\\" : "infrastructure/"
+        }
+    }
+}
